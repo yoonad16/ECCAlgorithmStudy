@@ -1,0 +1,6 @@
+count=input()
+inputnumbers=input()
+numbers=list(map(int, inputnumbers.split()))
+min_value=min(numbers)
+max_value=max(numbers)
+print(f"{min_value} {max_value}")
